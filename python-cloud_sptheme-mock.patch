@@ -1,0 +1,14 @@
+--- cloud_sptheme-1.9.4/cloud_sptheme/tests/test_ext_relbar_toc.py.orig	2017-02-02 15:26:07.000000000 +0100
++++ cloud_sptheme-1.9.4/cloud_sptheme/tests/test_ext_relbar_toc.py	2018-12-26 20:05:13.979649265 +0100
+@@ -10,7 +10,10 @@
+ log = logging.getLogger(__name__)
+ import os
+ # site
+-import mock
++try:
++    import mock
++except ImportError:
++    from unittest import mock
+ # pkg
+ from .utils import TestCase, unittest
+ # subject
