@@ -10,7 +10,7 @@ Summary:	"Cloud" Sphinx Theme
 Summary(pl.UTF-8):	Motyw "Cloud" dla Sphinksa
 Name:		python-cloud_sptheme
 Version:	1.9.4
-Release:	5
+Release:	6
 License:	BSD
 Group:		Libraries/Python
 # if pypi:
